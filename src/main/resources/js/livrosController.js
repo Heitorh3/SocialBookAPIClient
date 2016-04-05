@@ -5,7 +5,7 @@ angular.module("socialbookApp", []).controller("livrosCtrl", function($scope, $h
         url : "http://localhost:8080/livros",
         headers :  {
                 'Content-Type' : 'application/json;charset=UTF-8',
-                'Authorization': 'Basic YWRtaW46MTIzNDU2'
+                'Authorization': 'Basic aGVpdG9yOmFkbWlu'
             }
         }).then(function success (livros){
                   $scope.livros = livros.data;
@@ -19,7 +19,7 @@ angular.module("socialbookApp", []).controller("livrosCtrl", function($scope, $h
         if(livro == 'new'){
             $scope.edit = true;
         }else{
-            $scope.edit = false;
+            $scope.edit = true;
             $scope.livro = livro;
         }
     }

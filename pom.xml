@@ -23,6 +23,11 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.7.2</version>
         </dependency>
+        <dependency>
+            <groupId>br.com.socialbooksapi</groupId>
+            <artifactId>socialbooksapi</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
     </dependencies>
 
 </project>

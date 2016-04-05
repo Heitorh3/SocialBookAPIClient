@@ -17,7 +17,8 @@ import java.util.List;
 public class Aplicacao {
 
     public static void main(String[] args) throws ParseException {
-        LivrosClient livrosClient = new LivrosClient("http://localhost:8080","Admin","123456");
+        LivrosClient livrosClient = new LivrosClient("http://localhost:8080","heitor","admin");
+
 
         Livro livro = new Livro();
         livro.setNome("AmazonWS");
